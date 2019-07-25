@@ -1,5 +1,6 @@
 # Curso de Avançando com PHP: Arrays, Strings, Função e Web
-![](https://www.alura.com.br/assets/api/share/curso-php-arrays-strings-funcoes.png).
+![](https://www.alura.com.br/assets/api/share/curso-php-arrays-strings-funcoes.png)
+[Link do Curso](https://cursos.alura.com.br/course/php-arrays-strings-funcoes)
 
 ### Trabalhando com arrays
 * $idadeList = array(21, 23, 26, 29) ou $idadeList = [21, 23, 26, 29]
