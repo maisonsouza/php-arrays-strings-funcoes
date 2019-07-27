@@ -19,7 +19,12 @@
 
 
 ### Criando funções
-*
+* Subrotinas para isolar código que será recorrente na rotina do código
+* Palavra chave function.
+* Subrotinas executam e não devolvem valor
+* Funções retornam valor.
+
+
 ### Interpolação e Require
 
 ### Referências e mais listas
