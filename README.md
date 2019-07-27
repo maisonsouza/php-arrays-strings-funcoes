@@ -10,9 +10,13 @@
 
 ### Arrays associativos
 * São arrays com índices.
+* ´indice' => 'valor'
 * indíces podem ser númericos, mas geralmente são string
 * Para iterar o array associativo precisamos de um for para iterar no índice.
 * Com o foreach podemos pegar inclusive as chaves, e não precisamos de um indice.
+* $variavel [] adiciona na proxima posição somente para índices númericos.
+* Chaves de arrays associativos só podem ser inteiros ou string.
+
 
 ### Criando funções
 *
