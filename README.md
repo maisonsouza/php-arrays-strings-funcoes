@@ -1,4 +1,4 @@
-# Curso de Avançando com PHP: Arrays, Strings, Função e Web
+# Curso Avançando com PHP: Arrays, Strings, Função e Web
 ![](https://www.alura.com.br/assets/api/share/curso-php-arrays-strings-funcoes.png)
 ## [Link do Curso](https://cursos.alura.com.br/course/php-arrays-strings-funcoes)
 
