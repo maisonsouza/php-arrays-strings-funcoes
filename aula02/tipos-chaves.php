@@ -1,5 +1,6 @@
 <?php
 
+//tentando utilizar outros tipos de chaves para array
 $array = [
     1 => 'a',
     '1' => 'b',

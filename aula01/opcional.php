@@ -7,7 +7,7 @@
  */
 
 //Declaração do array
-$nomes = ["João","Maria","Pedro","Ana"];
+$nomes = array("João","Maria","Pedro","Ana");
 //Estrutura de repetição
 for($indice=0; $indice<count($nomes) ;$indice++){
     //Imprimir cada nome pelo índice e pular uma linha

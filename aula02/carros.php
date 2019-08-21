@@ -16,5 +16,5 @@ $carros = [
 ];
 
 foreach ($carros as $placa => $carro) {
-    echo $placa . ': ' . $carro['marca'] . PHP_EOL;
+    echo $placa . ': ' . $carro['marca'] . ': ' . $carro['modelo'].PHP_EOL;
 }
