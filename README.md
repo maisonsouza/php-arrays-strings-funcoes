@@ -15,7 +15,9 @@
 * Com o foreach podemos pegar inclusive as chaves, e não precisamos de um indice.
 
 ### Criando funções
-*
+* Subrotinas executam tudo dentro do corpo da função.
+* Funções possuem retorno.
+
 ### Interpolação e Require
 
 ### Referências e mais listas
