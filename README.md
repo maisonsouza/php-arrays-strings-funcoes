@@ -26,6 +26,12 @@
 
 
 ### Interpolação e Require
+* para acessar um valor de um array associativo dentro de string devemos omitir as aspas da chave, por exemplo " conta[titular] "
+* alternativamente podemos usar chaves em volta do array, por exemplo: " {conta['titular']} "
+* include não dá erro (apenas avisa) se o arquivo não existe, require dá erro.
+* require_once garante que o arquivo será incluído apenas uma vez.
+* E_NOTICE, PHP dá um aviso mas "se vira" e continua com a execução.
+* E_ERROR, PHP dá erro e para a execução do programa.
 
 ### Referências e mais listas
 

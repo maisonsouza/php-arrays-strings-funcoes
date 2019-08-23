@@ -1,28 +1,7 @@
 <?php
 
-function sacar(array $conta,$valorASacar)
-{
-    if ($valorASacar > $conta['saldo']) {
-        exibeMensagem("Você não pode sacar, saldo insufuciente!");
-    } else {
-        $conta['saldo'] -= $valorASacar;
-    }
-    return $conta;
-}
-
-function depositar(array $conta,$valorADepositar)
-{
-    if($valorADepositar>0){
-        $conta['saldo'] += $valorADepositar;
-        return $conta;
-    }
-
-}
-
-function exibeMensagem($mensagem)
-{
-    echo $mensagem . PHP_EOL;
-}
+// Mostra um erro caso o arquivo esteja com algum problema.
+require_once "../aula04/funcoes.php";
 
 // Declarando as contas
 $contasCorrentes = [
@@ -43,11 +22,11 @@ $contasCorrentes[123459] = [
     'saldo' => 2000
 ];
 
-
 //Imprimindo com o foreach
 foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem($cpf . " " . $conta['titular'] . " " . $conta['saldo']);
+    exibeMensagem ("$cpf  {$conta['titular']}  {$conta['saldo']}");
 }
+
 // Depositando 500 da conta do vinicius sem usar a função.
 $contasCorrentes[123456]['saldo'] -= 500;
 
@@ -57,7 +36,12 @@ $contasCorrentes[123456] = sacar($contasCorrentes[123456],250);
 // Depositando 125 reais da conta do vinicius
 $contasCorrentes[123456] = depositar($contasCorrentes[123456],125);
 
+//Pular uma linha para ajudar na legibilidade
 echo PHP_EOL;
+
+//Mostrar as contas após movimentações
 foreach ($contasCorrentes as $cpf => $conta) {
     exibeMensagem($cpf . " " . $conta['titular'] . " " . $conta['saldo']);
 }
+
+echo $contasCorrentes[0];
