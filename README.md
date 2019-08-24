@@ -34,6 +34,13 @@
 * E_ERROR, PHP dá erro e para a execução do programa.
 
 ### Referências e mais listas
+* Passagem do parâmetro por valor ou por referência.
+* O padrão do PHP é passar o parâmetro por valor, isto é fazer uma cópia do parâmetro.
+* Quando usamos a passagem por referência temos acesso aos valores da variável original, pois passamos a referência apenas (não é feito nenhuma cópia).
+* Para usar a passagem de referência basta colocar o caracter & na frente da variável.
+* $idadeList = [21, 23, 19, 25, 30, 41, 18];
+* list($idadeVinicius, $idadeJoao, $idadeMaria) = $idadeList;
+* Podemos remover um elemento usando a função unset(..).
 
 ### Introdução do PHP na Web
 
