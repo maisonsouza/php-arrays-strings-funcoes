@@ -43,4 +43,14 @@
 * Podemos remover um elemento usando a função unset(..).
 
 ### Introdução do PHP na Web
+* Precisamos de um servidor para programar na web
+* PHP já tem um servidor embutido
+* O comando para rodar o servidor é: php -S localhost:8080
+* A web sempre funciona no modelo de comunicação requisição e resposta
+* O protocolo da web se chama HTTP (Hyper Text Transfer Protocol)
+* As páginas web são construídas com a linguagem de marcação HTML, o navegador entende HTML
+podemos misturar código PHP com código HTML.
+* Para tal é preciso demarcar o código PHP, abrindo e fechando a tag PHP: <?php ... ?>
+* Para imprimir algum valor podemos usar <?= $valor ?>
+
 
